@@ -20,7 +20,7 @@ public class Manager {
             tmp[i] = films[i];
         }
 
-        tmp[films.length] = film;
+        tmp[tmp.length - 1] = film;
         films = tmp;
     }
 
